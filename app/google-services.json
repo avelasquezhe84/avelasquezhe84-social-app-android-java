@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "961689265191",
+    "project_id": "social-app-java",
+    "storage_bucket": "social-app-java.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961689265191:android:b643af2fa469fcc5b51a02",
+        "android_client_info": {
+          "package_name": "com.avh.socialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961689265191-sgpn7bslnvc349lm1otsu86kccsflqrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCjZYeubd1BNdfhfQR-rE9bFfRVKuzKxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961689265191-sgpn7bslnvc349lm1otsu86kccsflqrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
