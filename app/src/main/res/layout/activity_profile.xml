@@ -6,12 +6,16 @@
     android:layout_height="match_parent"
     tools:context=".ProfileActivity">
 
+    <!-- Show email of logged user -->
+
     <TextView
         android:id="@+id/profileTv"
-        android:text="Profile"
+        android:text="@string/profile_string"
         android:textSize="30sp"
         android:textColor="@color/colorPrimary"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center" />
 
 </LinearLayout>

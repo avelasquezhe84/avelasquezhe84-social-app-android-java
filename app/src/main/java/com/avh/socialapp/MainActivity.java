@@ -23,12 +23,14 @@ public class MainActivity extends AppCompatActivity {
         mLoginBtn = findViewById(R.id.login_btn);
 
         // Handle Register Button Click
-        mRegisterBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Start register activity
-                startActivity(new Intent(MainActivity.this, RegisterActivity.class));
-            }
+        mRegisterBtn.setOnClickListener(v -> {
+            // Start register activity
+            startActivity(new Intent(MainActivity.this, RegisterActivity.class));
+        });
+
+        // Handle Login Button Click
+        mLoginBtn.setOnClickListener(v -> {
+            startActivity(new Intent(MainActivity.this, LoginActivity.class));
         });
     }
 }
